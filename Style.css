@@ -180,6 +180,15 @@ a{
     .second-section{
     flex-direction: column;
     }
+    .sec-image img {
+        width: 64vw;
+    }
+    .sec-image video{
+        width: 64vw;
+    }
+    .sec-2-image img{
+        width: 70vw;
+    }
 }
 @media screen and (min-width:576px) and (max-width:1000px){
     .header-details h1{
