@@ -108,11 +108,11 @@ a{
     font-size: 1.2rem;
     font-weight: 900;
 }
-.section-divider{
-    height: 2px;
-    width: 100%;
+/* .section-divider{
+    height: 4px;
+    width: 100vw;
     background:grey;
-}
+} */
 /* main section style  */
 /* section 1  */
 .first-section{
@@ -142,11 +142,19 @@ a{
 }
 .first-section-title{
     width: 30vw;
+    height: auto;
     font-size: 2rem;
     text-align: center;
 }
 
+/* section 2 style  */
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+/* last section styles  */
 
 
 
@@ -176,7 +184,8 @@ a{
     .header-details h1{
         font-size: 3rem; 
     }
-    .first-section{
+    .first-section,
+    .second-section{
         flex-direction: column;
         }
 }
