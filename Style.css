@@ -176,7 +176,8 @@ a{
     .header-details h1{
         font-size: 2.5rem;
     }
-    .first-section{
+    .first-section,
+    .second-section{
     flex-direction: column;
     }
 }
