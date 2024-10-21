@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Martel Sans", sans-serif;
+    color: white;
 }
 header{
     background-color: black;
@@ -103,12 +104,62 @@ a{
     border-radius: 5px;
     border: none;
 }
+.input-box-button > .btn >a{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
 .section-divider{
     height: 2px;
     width: 100%;
     background:grey;
+}
+/* main section style  */
+/* section 1  */
+.first-section{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.sec-image img{
+  width: 30vw;
+  height: auto;
+  position: relative;
+  z-index: 10;
+}
+.sec-image{
+    position: relative;
     
 }
+.sec-image video{
+    width: 30vw;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    
+}
+.first-section-title{
+    width: 30vw;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* responsive styles */
 
@@ -116,12 +167,16 @@ a{
 @media screen and (max-width:576px) {
     .header-details h1{
         font-size: 2.5rem;
-        
+    }
+    .first-section{
+    flex-direction: column;
     }
 }
 @media screen and (min-width:576px) and (max-width:1000px){
     .header-details h1{
-        font-size: 3rem;
-        
+        font-size: 3rem; 
     }
+    .first-section{
+        flex-direction: column;
+        }
 }
